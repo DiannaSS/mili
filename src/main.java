@@ -1,0 +1,6 @@
+public class main  {
+    public static void main(String[] args) {
+        int amount = 400;
+        int mili= amount/20;
+        System.out.println(mili)
+    }}
