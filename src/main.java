@@ -1,6 +1,8 @@
-public class Main  {
+public class Main {
     public static void main(String[] args) {
-        int amount = 400;
-        int mili= amount/20;
-        System.out.println(mili)
-    }}
+        BonusMilesService service = new BonusMilesService();
+        int price = 10_000;
+        int miles = service.calculate(price);
+        System.out.println(miles);
+    }
+}
