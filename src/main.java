@@ -3,6 +3,6 @@ public class Main {
         BonusMilesService service = new BonusMilesService();
         int price = 10_000;
         int miles = service.calculate(113_300);
-        System.out.println("Бонусные мили=" + miles);
+        System.out.println(miles);
     }
 }
